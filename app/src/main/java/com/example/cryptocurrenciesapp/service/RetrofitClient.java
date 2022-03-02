@@ -1,4 +1,4 @@
-package com.example.cryptocurrenciesapp.Service;
+package com.example.cryptocurrenciesapp.service;
 
 import com.google.gson.Gson;
 

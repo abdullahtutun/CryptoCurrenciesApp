@@ -1,4 +1,4 @@
-package com.example.cryptocurrenciesapp.Adapter;
+package com.example.cryptocurrenciesapp.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,9 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cryptocurrenciesapp.Models.CurrencyModel;
+import com.example.cryptocurrenciesapp.models.CurrencyModel;
 import com.example.cryptocurrenciesapp.R;
-import com.example.cryptocurrenciesapp.Views.CurrenciesFragment;
+import com.example.cryptocurrenciesapp.views.CurrenciesFragment;
 
 import java.util.ArrayList;
 

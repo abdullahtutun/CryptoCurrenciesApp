@@ -1,8 +1,8 @@
-package com.example.cryptocurrenciesapp.Service;
+package com.example.cryptocurrenciesapp.service;
 
 
-import com.example.cryptocurrenciesapp.Models.CurrencyModel;
-import com.example.cryptocurrenciesapp.Models.MetadataModel;
+import com.example.cryptocurrenciesapp.models.CurrencyModel;
+import com.example.cryptocurrenciesapp.models.MetadataModel;
 
 import java.util.List;
 import retrofit2.Call;

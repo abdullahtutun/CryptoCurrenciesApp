@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/currenciesFragment"
-        android:name="com.example.cryptocurrenciesapp.Views.CurrenciesFragment"
+        android:name="com.example.cryptocurrenciesapp.views.CurrenciesFragment"
         android:label="Currencies"
         tools:layout="@layout/fragment_currencies" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/metadataFragment"
-        android:name="com.example.cryptocurrenciesapp.Views.MetadataFragment"
+        android:name="com.example.cryptocurrenciesapp.views.MetadataFragment"
         android:label="Metadata"
         tools:layout="@layout/fragment_metadata" >
         <action

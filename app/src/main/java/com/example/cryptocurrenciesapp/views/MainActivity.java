@@ -1,4 +1,4 @@
-package com.example.cryptocurrenciesapp.Views;
+package com.example.cryptocurrenciesapp.views;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

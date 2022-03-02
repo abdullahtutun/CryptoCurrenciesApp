@@ -1,4 +1,4 @@
-package com.example.cryptocurrenciesapp.Views;
+package com.example.cryptocurrenciesapp.views;
 
 import android.os.Bundle;
 
@@ -11,11 +11,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.cryptocurrenciesapp.Adapter.RecyclerViewAdapter;
-import com.example.cryptocurrenciesapp.Models.CurrencyModel;
+import com.example.cryptocurrenciesapp.adapter.RecyclerViewAdapter;
+import com.example.cryptocurrenciesapp.models.CurrencyModel;
 import com.example.cryptocurrenciesapp.R;
-import com.example.cryptocurrenciesapp.Service.CryptoAPI;
-import com.example.cryptocurrenciesapp.Service.RetrofitClient;
+import com.example.cryptocurrenciesapp.service.CryptoAPI;
+import com.example.cryptocurrenciesapp.service.RetrofitClient;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -90,9 +90,8 @@ public class CurrenciesFragment extends Fragment {
     public void goToMetadata(View view,String id){
 
         CurrenciesFragmentDirections.ActionCurrenciesFragmentToMetadataFragment action = CurrenciesFragmentDirections.actionCurrenciesFragmentToMetadataFragment("BTC");
-
         action.setCurrencyId(id);
-
+        
         Navigation.findNavController(view).navigate(action);
 
     }
